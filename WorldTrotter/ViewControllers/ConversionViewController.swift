@@ -65,6 +65,7 @@ final class ConversionViewController: BaseViewController, View {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.tabBarItem = .init(title: "Convert", image: #imageLiteral(resourceName: "ConvertIcon"), tag: 0)
     
     view.addSubview(stackView)
     

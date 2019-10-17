@@ -12,6 +12,7 @@ import Then
 import CGFloatLiteral
 import SnapKit
 import RxGesture
+import MapKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,10 +23,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let window = UIWindow(frame: UIScreen.main.bounds)
     window.backgroundColor = .white
     window.makeKeyAndVisible()
-
-    window.rootViewController = ConversionViewController(
+    
+    let conversionViewController = ConversionViewController(
       reactor: ConversionViewReactor(measureService: MeasureService())
     )
+    
+    let mapViewController = UIViewController()
+    mapViewController.view = MKMapView()
+    mapViewController.tabBarItem = .init(title: "Map", image: #imageLiteral(resourceName: "MapIcon"), tag: 1)
+    
+    let tabBarController = UITabBarController()
+    tabBarController.viewControllers = [
+      conversionViewController,
+      mapViewController
+    ]
+
+    window.rootViewController = tabBarController
     
     self.window = window
     return true
