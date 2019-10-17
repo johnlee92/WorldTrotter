@@ -10,6 +10,8 @@ target 'WorldTrotter' do
   # Rx
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxKeyboard'
   
   # Architecture
   pod 'ReactorKit'

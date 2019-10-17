@@ -5,6 +5,12 @@ PODS:
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxGesture (3.0.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
@@ -15,6 +21,8 @@ DEPENDENCIES:
   - CGFloatLiteral
   - ReactorKit
   - RxCocoa
+  - RxGesture
+  - RxKeyboard
   - RxSwift
   - SnapKit
   - Then
@@ -24,6 +32,8 @@ SPEC REPOS:
     - CGFloatLiteral
     - ReactorKit
     - RxCocoa
+    - RxGesture
+    - RxKeyboard
     - RxRelay
     - RxSwift
     - SnapKit
@@ -33,11 +43,13 @@ SPEC CHECKSUMS:
   CGFloatLiteral: 0328648f666e3cb2263d5ee3972df9d320786d25
   ReactorKit: a63c5e11e0fd32d59d672e54178b0ed2876b764b
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
 
-PODFILE CHECKSUM: ddb5ecf2f194cacbf3510e7d000d3fd6fce19578
+PODFILE CHECKSUM: 16f3e8e42aed13c6dd5a25ff7ce0114110baafb6
 
 COCOAPODS: 1.8.3

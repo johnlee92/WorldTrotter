@@ -11,6 +11,7 @@ import UIKit
 import Then
 import CGFloatLiteral
 import SnapKit
+import RxGesture
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,7 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window.backgroundColor = .white
     window.makeKeyAndVisible()
 
-    window.rootViewController = UIViewController()
+    window.rootViewController = ConversionViewController(
+      reactor: ConversionViewReactor(measureService: MeasureService())
+    )
+    
     self.window = window
     return true
   }
