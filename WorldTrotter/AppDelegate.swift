@@ -28,8 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       reactor: ConversionViewReactor(measureService: MeasureService())
     )
     
-    let mapViewController = UIViewController()
-    mapViewController.view = MKMapView()
+    let mapViewController = MapViewController(reactor: MapViewReactor())
     mapViewController.tabBarItem = .init(title: "Map", image: #imageLiteral(resourceName: "MapIcon"), tag: 1)
     
     let tabBarController = UITabBarController()

@@ -15,6 +15,8 @@
 		F83598AA2358A9CC00A843E5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83598A92358A9CC00A843E5 /* BaseViewController.swift */; };
 		F83598AC2358AA7C00A843E5 /* ConversionViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83598AB2358AA7C00A843E5 /* ConversionViewReactor.swift */; };
 		F83598AF2358BD3000A843E5 /* MeasureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83598AE2358BD3000A843E5 /* MeasureService.swift */; };
+		F83598B12359F03600A843E5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83598B02359F03600A843E5 /* MapViewController.swift */; };
+		F83598B32359F07100A843E5 /* MapViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83598B22359F07100A843E5 /* MapViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F83598A92358A9CC00A843E5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F83598AB2358AA7C00A843E5 /* ConversionViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewReactor.swift; sourceTree = "<group>"; };
 		F83598AE2358BD3000A843E5 /* MeasureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureService.swift; sourceTree = "<group>"; };
+		F83598B02359F03600A843E5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F83598B22359F07100A843E5 /* MapViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				F83598A92358A9CC00A843E5 /* BaseViewController.swift */,
 				F83598982358A85100A843E5 /* ConversionViewController.swift */,
 				F83598AB2358AA7C00A843E5 /* ConversionViewReactor.swift */,
+				F83598B02359F03600A843E5 /* MapViewController.swift */,
+				F83598B22359F07100A843E5 /* MapViewReactor.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -225,8 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F83598992358A85100A843E5 /* ConversionViewController.swift in Sources */,
+				F83598B12359F03600A843E5 /* MapViewController.swift in Sources */,
 				F83598952358A85100A843E5 /* AppDelegate.swift in Sources */,
 				F83598AA2358A9CC00A843E5 /* BaseViewController.swift in Sources */,
+				F83598B32359F07100A843E5 /* MapViewReactor.swift in Sources */,
 				F83598AF2358BD3000A843E5 /* MeasureService.swift in Sources */,
 				F83598AC2358AA7C00A843E5 /* ConversionViewReactor.swift in Sources */,
 			);
